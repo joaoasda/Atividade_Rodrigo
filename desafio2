@@ -1,0 +1,11 @@
+fun mostrarEmoji() {
+    val kotlin = "🙂"
+    println(kotlin)
+}
+
+fun main() {
+    println("Olá, Mundo!")
+    println("Bem-vindo ao Kotlin!")
+
+    mostrarEmoji()
+}
