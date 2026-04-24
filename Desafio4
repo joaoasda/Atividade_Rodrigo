@@ -1,0 +1,16 @@
+fun classificarIdade(idade: Int): String {
+    return if (idade <= 12) {
+        "Você é uma criança."
+    } else if (idade <= 18) {
+        "Você é um adolescente."
+    } else {
+        "Você é um adulto."
+    }
+}
+
+fun main() {
+    print("Informe sua idade: ")
+    val idade = readLine()!!.toInt()
+
+    println(classificarIdade(idade))
+}
